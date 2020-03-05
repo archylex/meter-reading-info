@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dialog_horizontal_margin"
+    android:paddingRight="@dimen/dialog_horizontal_margin"
+    android:paddingTop="@dimen/dialog_vertical_margin">
+
+    <TextView android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:background="@color/colorOrange"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/label_new_service_title"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/label_new_service_title"
+        android:textStyle="normal" />
+
+    <Spinner
+        android:id="@+id/input_organization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_marginTop="@dimen/dialog_vertical_space"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:entries="@array/service_array"
+        android:prompt="@string/service_organization_hint"
+        android:textColorHint="@color/cardview_dark_background"
+
+        android:textSize="@dimen/input_new_note" />
+
+    <EditText
+        android:id="@+id/input_login"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/edittext_bg"
+        android:gravity="top"
+        android:layout_marginTop="@dimen/dialog_vertical_space"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:hint="@string/service_login_hint"
+        android:textAlignment="center"
+        android:inputType="textCapSentences"
+        android:textColorHint="@color/design_default_color_primary_dark"
+        android:textSize="@dimen/input_new_note" />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/edittext_bg"
+        android:gravity="top"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/dialog_vertical_space"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:hint="@string/service_password_hint"
+        android:inputType="textCapSentences"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textSize="@dimen/input_new_note" />
+
+    <CheckBox
+        android:id="@+id/input_enabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:layout_marginTop="@dimen/dialog_vertical_space"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:hint="@string/service_enabled_hint"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textSize="@dimen/input_new_note" />
+
+</LinearLayout>

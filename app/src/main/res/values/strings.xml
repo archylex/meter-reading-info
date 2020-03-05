@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Счетчик Инфо</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Счетчик Инфо</string>
+    <string name="nav_header_subtitle">2019 | Nazoroot</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="menu_info">Информация</string>
+    <string name="menu_services">Услуги</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_help">Помощь</string>
+    <string name="menu_exit">Выход</string>
+
+    <string name="empty">Пусто</string>
+    <string name="internet_ok">Соединение...</string>
+    <string name="internet_err">Нет доступа к сети!</string>
+
+    <string name="info_service_amount">Показание</string>
+    <string name="info_service_on">на</string>
+    <string name="info_service_debt">Задолженность</string>
+    <string name="info_service_overpayment">Переплата</string>
+    <string name="currency">руб.</string>
+    <string name="subscriber_number">л/с</string>
+    <string name="address">Адресс</string>
+    <string name="owner">Ф.И.О.</string>
+
+    <string name="err_list_service_title">Услуга временно недоступна</string>
+    <string name="err_list_service_notice">Проводятся регламентные работы или ваши учетные данные неверны.</string>
+
+    <string-array name="service_array">
+        <item>ГУП РК «Вода Крыма»</item>
+        <item>ГУП РК «Крымгазсети»</item>
+        <item>ГУП РК «Крымэнерго»</item>
+    </string-array>
+
+    <string name="label_new_service_title">Добавить услугу</string>
+    <string name="label_edit_service_title">Редактирование услуги</string>
+    <string name="service_login_hint">логин</string>
+    <string name="service_password_hint">пароль</string>
+    <string name="service_enabled_hint">вкл.</string>
+    <string name="service_reading_hint">показания</string>
+    <string name="service_organization_hint">представитель услуги</string>
+    <string name="err_new_dlg_service_login">Введите логин!</string>
+    <string name="err_new_dlg_service_password">Введите пароль!</string>
+    <string name="err_new_dlg_service_organization">Выберите поставщика услуг!</string>
+
+    <string name="list_service_dlg_update">обновить</string>
+    <string name="list_service_dlg_add">добавить</string>
+    <string name="list_service_dlg_cancel">отмена</string>
+
+    <string name="action_edit">Редактировать</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_title">Выберите действие</string>
+
+    <string name="label_send_reading_title">Отпарвить показания</string>
+    <string name="label_send_reading_button">отпарвить</string>
+    <string name="error_meter_reading">Введите показания!</string>
+    <string name="error_send_reading">Не удалось отправить показания!</string>
+    <string name="error_send_reading_offline">Невозможно отправить показания без интернета.</string>
+    <string name="ok_sent_reading">Показания отправлены!</string>
+
+</resources>
